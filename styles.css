@@ -1,0 +1,34 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container .header {
+    background: #1f2937;
+    height: 225px;
+    flex: 1 1 auto;
+}
+
+.flex-container .body {
+    background: white;
+    height: 225px;
+    flex: 1 1 auto;
+}
+
+.flex-container .quote {
+    background: #e5e7eb;
+    height: 225px;
+    flex: 1 1 auto;
+}
+
+.flex-container .signup {
+    background: white;
+    height: 100px;
+    flex: 1 1 auto;
+}
+
+.flex-container .footer {
+    background: #1f2937;
+    height: 50px;
+    flex: 1 1 auto;
+}
