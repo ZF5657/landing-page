@@ -32,10 +32,6 @@ body {
     color: white;
 }
 
-.body-left {
-    
-}
-
 .body-h {
     margin-right: 200px;
     margin-bottom: 10px;
@@ -80,10 +76,52 @@ body {
     font-size: 10px;
 }
 
-.main {
+.main-header {
     background: white;
-    height: 500px;
+    height: 60px;
     flex: 1 1 auto;
+}
+
+.main-h {
+    margin-top: 24px;
+    margin-left: 700px;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 440px;
+    flex: 1 1 auto;
+    gap: 100px;
+}
+
+.main-one {
+    border: 1px solid  red;
+    height: 300px;
+    width: 300px;
+}
+
+.main-two {
+    border: 1px solid  red;
+    height: 300px;
+    width: 300px;
+}
+
+.main-three {
+    border: 1px solid  red;
+    height: 300px;
+    width: 300px;
+}
+
+.main-four {
+    border: 1px solid  red;
+    height: 300px;
+    width: 300px;
 }
 
 .quote {
