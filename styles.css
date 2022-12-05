@@ -77,14 +77,15 @@ body {
 }
 
 .main-header {
+    display: flex;
     background: white;
     height: 60px;
     flex: 1 1 auto;
+    justify-content: center;
 }
 
 .main-h {
     margin-top: 24px;
-    margin-left: 700px;
     font-size: 36px;
     color: #1f2937;
 }
@@ -97,31 +98,28 @@ body {
     background: white;
     height: 440px;
     flex: 1 1 auto;
-    gap: 100px;
+    gap: 25px;
 }
 
-.main-one {
-    border: 1px solid  red;
-    height: 300px;
-    width: 300px;
+.main-one, .main-two, .main-three, .main-four {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 20px;
 }
 
-.main-two {
-    border: 1px solid  red;
-    height: 300px;
-    width: 300px;
+.main-img {
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.main-three {
-    border: 1px solid  red;
-    height: 300px;
-    width: 300px;
-}
-
-.main-four {
-    border: 1px solid  red;
-    height: 300px;
-    width: 300px;
+.main-p {
+    float: bottom;
+    font-size: 10px;
+    margin-bottom: 8px;
 }
 
 .quote {
@@ -170,7 +168,7 @@ li:not(:last-child) {
     border-right: 1px solid #e5e7eb;
 }
 
-#header-links {
+.header-links {
     list-style-type: none;
     float: right;
     margin-right: 200px;
@@ -178,7 +176,7 @@ li:not(:last-child) {
 }
 /* Positions the link list on right side*/
 
-#logo-img {
+.logo-img {
     margin-left: 100px;
     margin-top: 10px;
 }
